@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #333;
+        }
+
+        header{
+            background-color: #0099ff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul{
+            list-style: none;
+        }
+
+        nav li{
+            padding: 10px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+       .header-right{
+            display: flex;
+            align-items: center;
+        }
+
+        h1{
+            margin-left: 20px;
+            color: #fff;
+            font-size: 30px;
+        }
+
+        main{
+            padding: 20px;
+        }
+
+        section{
+            padding: 20px;
+        }
+
+        h2{
+            color: #0099ff;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+       .box{
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        h3{
+            color: #0099ff;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        p{
+            color: #333;
+            font-size: 16px;
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: #0099ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        span{
+            color: #333;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        footer{
+            background-color: #0099ff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p{
+            color: #fff;
+        }
+    </style>
+    <title>Bestbook</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#bestselling">Best Selling</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#amount">Amount Spent</a></li>
+                <li><a href="#coins">Coins/Coupons</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <h1>Bestbook</h1>
+        </div>
+    </header>
+
+    <!-- Body -->
+    <main>
+        <section id="books">
+            <h2>Books</h2>
+            <div class="box">
+                <h3>Book Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Book Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Book Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+        </section>
+
+        <section id="manga">
+            <h2>Manga</h2>
+            <div class="box">
+                <h3>Manga Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Manga Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Manga Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+        </section>
+
+        <section id="moral-stories">
+            <h2>Moral Stories</h2>
+            <div class="box">
+                <h3>Story Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Story Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Story Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+        </section>
+
+        <section id="horrors">
+            <h2>Horrors</h2>
+            <div class="box">
+                <h3>Horror Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Horror Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Horror Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+        </section>
+
+        <section id="manhwas">
+            <h2>Manhwas</h2>
+            <div class="box">
+                <h3>Manhwa Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Manhwa Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+            <div class="box">
+                <h3>Manhwa Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button>Add to Cart</button>
+                <span>No of Stocks: 10</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Bestbook</p>
+    </footer>
+</body>
+</html>
